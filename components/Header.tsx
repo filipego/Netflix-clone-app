@@ -26,7 +26,7 @@ function Header() {
         <header className={`${isScrolled && 'bg-[#141414]'}`}>
             <div className="flex items-center space-x-2 md:space-x-10">
                 <Image
-                    src="/Playground_Files/Netflix_clone_app/Netflix_logo_p-_VyWjAg.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1654978115730"
+                    src="https://ik.imagekit.io/ec3987k0v/Playground_Files/Netflix_clone_app/Netflix_logo_p-_VyWjAg.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1654978115730"
                     width={100}
                     height={27}
                     className="cursor-pointer object-contain"
@@ -46,7 +46,7 @@ function Header() {
                 <Link href="/account">
                     <a>
                         <Image
-                            src="/Playground_Files/Netflix_clone_app/profile_pic_OWyKGOR61.png?ik-sdk-version=javascript-1.4.3&updatedAt=1654981134158"
+                            src="https://ik.imagekit.io/ec3987k0v/Playground_Files/Netflix_clone_app/profile_pic_OWyKGOR61.png?ik-sdk-version=javascript-1.4.3&updatedAt=1654981134158"
                             width={32}
                             height={32}
                             className="cursor-pointer rounded"
