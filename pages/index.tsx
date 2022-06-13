@@ -1,9 +1,8 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import Header from '../components/Header'
-import Banner from '../components/Banner'
 import { Movie } from '../typings'
 import requests from '../utils/requests'
+import Header from '../components/Header'
+import Banner from '../components/Banner'
 import Row from '../components/Row'
 
 
@@ -36,7 +35,7 @@ const Home = ({
   return (
     <div className="relative h-screen bg-gradient-to-b">
       <Head>
-        <title>Netflix clone  App</title>
+        <title>Home - Netflix</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
