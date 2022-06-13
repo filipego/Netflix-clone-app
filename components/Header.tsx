@@ -2,9 +2,12 @@ import Image from "next/image"
 import { BellIcon, SearchIcon } from "@heroicons/react/outline"
 import Link from "next/link"
 import { useEffect, useState } from "react"
+import useAuth from '../hooks/useAuth'
 
 function Header() {
     const [isScrolled, setIsScrolled] = useState(false)
+
+    const { logout } = useAuth()
 
     useEffect(() => {
         const handleScroll = () => {
@@ -43,16 +46,17 @@ function Header() {
                 <SearchIcon className="hidden h-6 w-6 sm:inline" />
                 <p className="hidden lg:inline">Kids</p>
                 <BellIcon className="h6 w-6" />
-                <Link href="/account">
-                    <a>
-                        <Image
-                            src="https://ik.imagekit.io/ec3987k0v/Playground_Files/Netflix_clone_app/profile_pic_OWyKGOR61.png?ik-sdk-version=javascript-1.4.3&updatedAt=1654981134158"
-                            width={32}
-                            height={32}
-                            className="cursor-pointer rounded"
-                        />
-                    </a>
-                </Link >
+                {/* <Link href="/account"> */}
+                {/* <a> */}
+                <Image
+                    src="https://ik.imagekit.io/ec3987k0v/Playground_Files/Netflix_clone_app/profile_pic_OWyKGOR61.png?ik-sdk-version=javascript-1.4.3&updatedAt=1654981134158"
+                    width={32}
+                    height={32}
+                    className="cursor-pointer rounded"
+                    onClick={logout}
+                />
+                {/* </a> */}
+                {/* </Link > */}
             </div>
         </header>
     )
