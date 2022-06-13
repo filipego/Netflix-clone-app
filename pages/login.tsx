@@ -37,7 +37,10 @@ function Login() {
                 objectFit="cover"
             />
             <div className="absolute left-2 top-1 h-20 w-44 cursor-pointer md:left-8 md:top-4">
-                <Image src="https://ik.imagekit.io/ec3987k0v/Playground_Files/Netflix_clone_app/Netflix_logo_p-_VyWjAg.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1654978115730" layout="fill" objectFit="contain" />
+                <Image src="https://ik.imagekit.io/ec3987k0v/Playground_Files/Netflix_clone_app/Netflix_logo_p-_VyWjAg.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1654978115730"
+                    width={100}
+                    height={27}
+                    className="cursor-pointer object-contain" />
             </div>
 
             <form className="relative mt-24 space-y-8 rounded bg-black/75 py-10 px-6 md:mt-0 md:max-w-md md:px-14"
