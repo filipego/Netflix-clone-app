@@ -36,7 +36,7 @@ function Login() {
                 className="-z-10 !hidden opacity-60 sm:!inline"
                 objectFit="cover"
             />
-            <div className="absolute left-2 top-1 h-20 w-44 cursor-pointer md:left-8 md:top-4">
+            <div className="absolute left-2 top-1 h-20 w-44 cursor-pointer md:left-8 md:top-4 pt-4 pl-4">
                 <Image src="https://ik.imagekit.io/ec3987k0v/Playground_Files/Netflix_clone_app/Netflix_logo_p-_VyWjAg.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1654978115730"
                     width={100}
                     height={27}
